@@ -10,13 +10,13 @@ cat > index.md << 'EOF'
 </div>
 
 ## Índice
-- [🔆 Energía Solar](articulo-1.md)
-- [🌬️ Energía Eólica](articulo-2.md)
-- [💧 Energía Hidroeléctrica](articulo-3.md)
-- [🔥 Biomasa](articulo-4.md)
-- [🌋 Energía Geotérmica](articulo-5.md)
-- [📘 Glosario](glosario.md)
-- [📚 Referencias](referencias.md)
+- [Energía Solar](articulo-1.md)
+- [ Energía Eólica](articulo-2.md)
+- [ Energía Hidroeléctrica](articulo-3.md)
+- [ Biomasa](articulo-4.md)
+- [ Energía Geotérmica](articulo-5.md)
+- [ Glosario](glosario.md)
+- [ Referencias](referencias.md)
 
 ```mermaid
 gantt
