@@ -1,1 +1,28 @@
+#!/bin/bash
+mkdir -p entregas/Guillermo.Martinez/AEC-MD/mi-wiki/recursos/imagenes
+cd entregas/Guillermo.Martinez/AEC-MD/mi-wiki
 
+# index.md
+cat > index.md << 'EOF'
+<div align="center">
+  <h1>🌱 Mini-Wiki: Energías Renovables</h1>
+  <p>Proyecto de Guillermo Martínez — AEC-MD</p>
+</div>
+
+## Índice
+- [🔆 Energía Solar](articulo-1.md)
+- [🌬️ Energía Eólica](articulo-2.md)
+- [💧 Energía Hidroeléctrica](articulo-3.md)
+- [🔥 Biomasa](articulo-4.md)
+- [🌋 Energía Geotérmica](articulo-5.md)
+- [📘 Glosario](glosario.md)
+- [📚 Referencias](referencias.md)
+
+```mermaid
+gantt
+    title Historia de las Energías Renovables
+    dateFormat  YYYY
+    section Desarrollo
+    Primeros estudios solares :done, 1900, 1950
+    Energía eólica moderna :active, 1970, 2000
+    Expansión global : 2000, 2025
